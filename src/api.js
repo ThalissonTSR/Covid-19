@@ -22,6 +22,9 @@ function getCountry(country) {
         });
 }
 
-export default {
+
+const api = {
     getCountry
 };
+
+export default api;
