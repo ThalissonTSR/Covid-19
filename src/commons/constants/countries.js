@@ -1,34 +1,34 @@
-/*import Brazilflag from 'assets'
-import Chinaflag from 'assets'
-import Germanyflag from 'assets'
-import Italyflag from 'assets'
-import Usaflag from 'assets'
-*/
+import Brazilflag from '../../assets/brasil.png'
+import Chinaflag from '../../assets/china.png'
+import Germanyflag from '../../assets/alemanha.png'
+import Italyflag from '../../assets/italia.png'
+import Usaflag from '../../assets/estados-unidos.png'
+
 const COUNTRIES = [
     {
         label: 'Alemanha',
         value: 'germany',
-        //flag: Germanyflag
+        flag: Germanyflag
     },
     {
         label: 'Brasil',
         value: 'brazil',
-        //flag: Brazilflag
+        flag: Brazilflag
     },
     {
         label: 'China',
         value: 'china',
-        //flag: Chinaflag
+        flag: Chinaflag
     },
     {
         label: 'Estados Unidos',
         value: 'usa',
-        //flag: Usaflag
+        flag: Usaflag
     },
     {
         label: 'Italia',
         value: 'italy',
-        //flag: Italyflag
+        flag: Italyflag
     }
 ]
 
